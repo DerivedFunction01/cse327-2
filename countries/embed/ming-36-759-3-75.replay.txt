@@ -1,0 +1,322 @@
+using cuda device
+UNITY: ming
+
+Query 1: [threeBorderTrip(C, City), threeBorderTrip(C, georgia), fourBorderTrip(turkmenistan, City)]
+Query failed!!!
+954 :: 0 - 00:00:36 (26 nps)
+
+Query 2: [officialLanguage(equatorial_guinea, C), officialLanguage(ecuador, C), officialLanguage(guatemala, C)]
+4 :: 3 - 00:00:00 (160 nps)
+
+Query 3: [cityInRegion(C, City), cityInContinent(C, City), locatedIn(guinea_bissau, City)]
+8 :: 7 - 00:00:00 (12 nps)
+
+Query 4: [sameRegion(City, R)]
+4 :: 3 - 00:00:00 (7 nps)
+
+Query 5: [sameRegion(Continent, R)]
+4 :: 3 - 00:00:00 (14 nps)
+
+Query 6: [sameRegion(W, V)]
+4 :: 3 - 00:00:00 (6 nps)
+
+Query 7: [fourBorderTrip(syria, C), usesSameCurrency(C, C)]
+7296 :: 13 - 00:00:13 (523 nps)
+
+Query 8: [cityInAllianceAndRegion(R, Z, Org)]
+5 :: 4 - 00:00:00 (5 nps)
+
+Query 9: [twoBorderTrip(Country, Country)]
+302 :: 4 - 00:00:01 (175 nps)
+
+Query 10: [cityInContinent(Y, Continent)]
+4 :: 3 - 00:00:00 (5 nps)
+
+Query 11: [fourBorderTrip(Continent, Y)]
+1510 :: 11 - 00:00:04 (324 nps)
+
+Query 12: [capitalInAlliance(abu_dhabi, C), capitalInAllianceAndRegion(abu_dhabi, C, middle_east)]
+8 :: 7 - 00:00:00 (34 nps)
+
+Query 13: [officialLanguage(C, City), sameRegion(Continent, C), sameRegion(C, new_zealand), sharesLanguage(equatorial_guinea, Continent)]
+17236 :: 10 - 00:00:18 (921 nps)
+
+Query 14: [cityInContinent(chittagong, C), locatedIn(City, C), threeBorderTrip(thailand, City)]
+6168 :: 12 - 00:00:05 (1087 nps)
+
+Query 15: [usesSameCurrency(R, C)]
+4 :: 3 - 00:00:00 (7 nps)
+
+Query 16: [currencyOf(City, C), sharesLanguage(spain, City), threeBorderTrip(City, paraguay)]
+685 :: 12 - 00:00:04 (164 nps)
+
+Query 17: [fourBorderTrip(Region, Continent)]
+1510 :: 11 - 00:00:07 (204 nps)
+
+Query 18: [officialLanguage(C, chichewa), borders(C, zambia), sharesLanguage(C, kenya)]
+9 :: 5 - 00:00:00 (16 nps)
+
+Query 19: [sameRegion(W, Country)]
+4 :: 3 - 00:00:00 (6 nps)
+
+Query 20: [sharesLanguage(R, O)]
+4 :: 3 - 00:00:00 (5 nps)
+
+Query 21: [threeBorderTrip(mali, C), fourBorderTrip(City, C), sharesLanguage(City, dominica)]
+Query failed!!!
+1000000 :: 0 - 00:07:48 (2132 nps)
+
+Query 22: [cityInRegion(luanda, C), cityInRegion(City, C), cityInRegion(maputo, C), cityInContinent(City, C)]
+25 :: 12 - 00:00:01 (15 nps)
+
+Query 23: [sharesBorder(Continent, Country)]
+3 :: 2 - 00:00:00 (7 nps)
+
+Query 24: [sameRegion(Org, C)]
+4 :: 3 - 00:00:00 (6 nps)
+
+Query 25: [usesSameCurrency(V, X)]
+4 :: 3 - 00:00:00 (7 nps)
+
+Query 26: [cityIn(C, Continent), capitalInContinent(C, City), capitalInContinent(phnom_penh, City), fourBorderTrip(belarus, Continent), capitalInContinent(dili, City)]
+Query failed!!!
+1000000 :: 0 - 00:01:11 (14055 nps)
+
+Query 27: [twoBorderTrip(Org, C)]
+6 :: 5 - 00:00:01 (4 nps)
+
+Query 28: [fourBorderTrip(Org, V)]
+3469 :: 11 - 00:00:09 (384 nps)
+
+Query 29: [capitalCity(C), capitalOf(City, C), sharesLanguage(City, micronesia), sharesLanguage(Continent, City), sameRegion(libya, Continent)]
+2035 :: 12 - 00:00:09 (225 nps)
+
+Query 30: [sharesLanguage(O, W)]
+4 :: 3 - 00:00:00 (5 nps)
+
+Query 31: [capitalOf(thailand, C), cityInRegion(C, City), cityInAllianceAndRegion(shanghai, Continent, City), cityInAlliance(abu_dhabi, Continent), cityInContinent(penang, City)]
+304 :: 14 - 00:00:01 (195 nps)
+
+Query 32: [usesSameCurrency(belgium, C), sharesLanguage(C, C)]
+6 :: 5 - 00:00:00 (13 nps)
+
+Query 33: [threeBorderTrip(R, Neighbor)]
+19 :: 8 - 00:00:02 (7 nps)
+
+Query 34: [sharesLanguage(X, Z)]
+4 :: 3 - 00:00:00 (5 nps)
+
+Query 35: [threeBorderTrip(City, C), sameRegion(C, Continent), fourBorderTrip(lesotho, City), twoBorderTrip(tanzania, Continent), sharesLanguage(C, eritrea)]
+Query failed!!!
+1000000 :: 0 - 00:36:18 (459 nps)
+
+Query 36: [usesSameCurrency(Continent, Region)]
+4 :: 3 - 00:00:00 (10 nps)
+
+Query 37: [fourBorderTrip(O, Neighbor)]
+2266 :: 11 - 00:00:05 (428 nps)
+
+Query 38: [threeBorderTrip(C, X)]
+19 :: 8 - 00:00:01 (11 nps)
+
+Query 39: [twoStepBorderNeighborAlliance(Region, V)]
+9 :: 7 - 00:00:01 (6 nps)
+
+Query 40: [capitalOf(serbia, C), cityIn(C, serbia), cityInRegion(C, europe), capitalCity(C)]
+13 :: 7 - 00:00:00 (141 nps)
+
+Query 41: [sameAlliance(O, Region)]
+4 :: 3 - 00:00:00 (18 nps)
+
+Query 42: [capitalInContinent(C, asia), cityInContinent(C, asia), capitalCity(C)]
+14 :: 8 - 00:00:00 (49 nps)
+
+Query 43: [sameRegion(Y, Region)]
+4 :: 3 - 00:00:00 (10 nps)
+
+Query 44: [fourBorderTrip(O, Continent)]
+1510 :: 11 - 00:00:02 (735 nps)
+
+Query 45: [sameAlliance(W, C)]
+4 :: 3 - 00:00:00 (18 nps)
+
+Query 46: [sameRegion(Country, L)]
+4 :: 3 - 00:00:00 (11 nps)
+
+Query 47: [threeBorderTrip(City, C), fourBorderTrip(C, afghanistan), threeBorderTrip(russia, C), fourBorderTrip(City, sweden)]
+Query failed!!!
+986 :: 0 - 00:00:26 (37 nps)
+
+Query 48: [currencyOf(kuwait, C)]
+2 :: 1 - 00:00:00 (617 nps)
+
+Query 49: [sameAlliance(L, R)]
+4 :: 3 - 00:00:00 (19 nps)
+
+Query 50: [cityInRegion(lubumbashi, C), locatedIn(equatorial_guinea, C)]
+5 :: 4 - 00:00:00 (27 nps)
+
+Query 51: [sameRegion(O, Y)]
+4 :: 3 - 00:00:00 (21 nps)
+
+Query 52: [currencyOf(C, City), fourBorderTrip(C, nicaragua), fourBorderTrip(belize, C)]
+Query failed!!!
+1000000 :: 0 - 00:05:05 (3273 nps)
+
+Query 53: [sameRegion(Org, O)]
+4 :: 3 - 00:00:00 (10 nps)
+
+Query 54: [sameAlliance(R, Continent)]
+4 :: 3 - 00:00:00 (19 nps)
+
+Query 55: [threeBorderTrip(Country, Continent)]
+608 :: 8 - 00:00:02 (237 nps)
+
+Query 56: [currencyOf(C, City), threeBorderTrip(zambia, C)]
+2884 :: 9 - 00:00:02 (1142 nps)
+
+Query 57: [cityIn(debrecen, C), sameAlliance(City, C), sameAlliance(City, Continent), sameRegion(Continent, moldova)]
+355 :: 9 - 00:00:00 (484 nps)
+
+Query 58: [capitalOf(C, mexico_city), sameAlliance(C, poland)]
+5 :: 4 - 00:00:00 (349 nps)
+
+Query 59: [threeBorderTrip(Region, Y)]
+19 :: 8 - 00:00:01 (12 nps)
+
+Query 60: [threeBorderTrip(Neighbor, V)]
+19 :: 8 - 00:00:01 (12 nps)
+
+Query 61: [capitalOf(zambia, C), cityInContinent(C, africa)]
+5 :: 4 - 00:00:00 (94 nps)
+
+Query 62: [capitalCity(C), capitalOf(City, C), capitalInContinent(C, africa), sharesLanguage(City, City)]
+21 :: 8 - 00:00:00 (31 nps)
+
+Query 63: [capitalInContinent(C, europe), capitalCity(C), cityInContinent(C, europe)]
+74 :: 8 - 00:00:00 (83 nps)
+
+Query 64: [threeBorderTrip(Country, O)]
+608 :: 8 - 00:00:01 (476 nps)
+
+Query 65: [currencyOf(C, cfa_franc), threeBorderTrip(City, C), sharesLanguage(Continent, City), sameRegion(City, uganda), sharesLanguage(saint_vincent_and_the_grenadines, Continent)]
+Query failed!!!
+1000000 :: 0 - 00:01:37 (10278 nps)
+
+Query 66: [fourBorderTrip(Region, Continent)]
+1510 :: 11 - 00:00:04 (343 nps)
+
+Query 67: [borders(City, C), locatedIn(C, africa), borders(City, uganda), fourBorderTrip(C, sudan), twoBorderTrip(City, tanzania)]
+Query failed!!!
+1000000 :: 0 - 00:01:23 (12036 nps)
+
+Query 68: [fourBorderTrip(Country, O)]
+2428 :: 11 - 00:00:06 (386 nps)
+
+Query 69: [sameAlliance(Region, Continent)]
+4 :: 3 - 00:00:00 (17 nps)
+
+Query 70: [cityInAllianceAndRegion(C, eu, europe), cityInAlliance(C, City), twoStepBorderNeighborAlliance(san_marino, City)]
+2678 :: 14 - 00:00:03 (700 nps)
+
+Query 71: [cityInContinent(V, City)]
+4 :: 3 - 00:00:00 (8 nps)
+
+Query 72: [sameRegion(V, W)]
+4 :: 3 - 00:00:00 (11 nps)
+
+Query 73: [cityInRegion(L, Continent)]
+4 :: 3 - 00:00:00 (9 nps)
+
+Query 74: [cityInRegion(C, City), cityInContinent(C, City), capitalInAllianceAndRegion(ljubljana, eu, City), cityIn(C, north_macedonia), cityInRegion(sofia, City)]
+15 :: 14 - 00:00:00 (36 nps)
+
+Query 75: [threeBorderTrip(L, City)]
+19 :: 8 - 00:00:01 (12 nps)
+
+Query 76: [twoBorderTrip(C, Org)]
+6 :: 5 - 00:00:00 (7 nps)
+
+Query 77: [threeBorderTrip(C, City), borderNeighborAlliance(C, Continent), threeBorderTrip(City, estonia), borderNeighborAlliance(timor_leste, Continent), sharesBorder(bangladesh, City)]
+Query failed!!!
+902307 :: 0 - 00:03:28 (4335 nps)
+
+Query 78: [officialLanguage(City, C), threeBorderTrip(uzbekistan, City)]
+850 :: 9 - 00:00:02 (358 nps)
+
+Query 79: [fourBorderTrip(Z, O)]
+1802 :: 11 - 00:00:00 (2668 nps)
+
+Query 80: [borderNeighborAlliance(Z, L)]
+5 :: 4 - 00:00:00 (11 nps)
+
+Query 81: [capitalInContinent(C, City), capitalOf(Continent, C), locatedIn(Continent, City), sharesLanguage(Country, Continent), threeBorderTrip(tunisia, Country)]
+Query failed!!!
+1000000 :: 0 - 00:11:12 (1487 nps)
+
+Query 82: [sameRegion(Org, City)]
+4 :: 3 - 00:00:00 (10 nps)
+
+Query 83: [sameRegion(Z, O)]
+4 :: 3 - 00:00:00 (11 nps)
+
+Query 84: [sameRegion(Org, Z)]
+4 :: 3 - 00:00:00 (163 nps)
+
+Query 85: [fourBorderTrip(City, C), threeBorderTrip(C, china), sameRegion(jordan, City)]
+Query failed!!!
+1000000 :: 0 - 00:05:33 (2996 nps)
+
+Query 86: [fourBorderTrip(C, togo), usesSameCurrency(guinea_bissau, C)]
+4394 :: 14 - 00:00:08 (498 nps)
+
+Query 87: [fourBorderTrip(romania, C), sharesBorder(ukraine, C), fourBorderTrip(C, City), sameAlliance(City, south_africa), usesSameCurrency(croatia, City)]
+Query failed!!!
+1733 :: 0 - 00:00:28 (61 nps)
+
+Query 88: [cityInRegion(C, City), cityInAllianceAndRegion(C, brics, City), cityInAlliance(C, brics), cityInContinent(Continent, City), capitalInContinent(Continent, City)]
+Query failed!!!
+1000000 :: 0 - 00:05:22 (3096 nps)
+
+Query 89: [twoBorderTrip(X, Region)]
+8 :: 5 - 00:00:00 (8 nps)
+
+Query 90: [sameAlliance(C, City), sameRegion(C, kosovo), threeBorderTrip(City, syria)]
+35720 :: 14 - 00:00:09 (3958 nps)
+
+Query 91: [officialLanguage(C, haitian_creole), sameRegion(guatemala, C), sharesLanguage(City, C), sameRegion(City, Continent), sharesLanguage(samoa, Continent)]
+33 :: 13 - 00:00:02 (14 nps)
+
+Query 92: [threeBorderTrip(tunisia, C), sharesLanguage(C, City), sameRegion(Continent, City), fourBorderTrip(Continent, sudan)]
+Query failed!!!
+1000000 :: 0 - 00:05:58 (2785 nps)
+
+Query 93: [borderNeighborAlliance(O, Country)]
+5 :: 4 - 00:00:00 (9 nps)
+
+Query 94: [fourBorderTrip(W, R)]
+2263 :: 11 - 00:00:04 (457 nps)
+
+Query 95: [sameRegion(vietnam, C), sameRegion(china, C), sameRegion(C, tajikistan)]
+10 :: 9 - 00:00:00 (40 nps)
+
+Query 96: [fourBorderTrip(azerbaijan, C), threeBorderTrip(C, laos)]
+Query failed!!!
+1000000 :: 0 - 00:02:25 (6883 nps)
+
+Query 97: [officialLanguage(C, luxembourgish), sameRegion(C, City), threeBorderTrip(slovakia, City), twoBorderTrip(Continent, City), threeBorderTrip(germany, Continent)]
+Query failed!!!
+1000000 :: 0 - 00:05:17 (3153 nps)
+
+Query 98: [sameRegion(R, L)]
+4 :: 3 - 00:00:00 (10 nps)
+
+Query 99: [currencyOf(City, C), sameRegion(Continent, City), sameRegion(singapore, Continent)]
+1267 :: 7 - 00:00:01 (768 nps)
+
+Query 100: [sharesLanguage(Org, Country)]
+4 :: 3 - 00:00:00 (8 nps)
+
+ming: 130081.53 nodes/query
+16 queries failed
+Time to run all queries: 5822.124388885
