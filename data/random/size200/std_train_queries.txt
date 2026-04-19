@@ -1,0 +1,511 @@
+Negative facts will be generated
+1: [p2(X0)]
+min depth: 1                                                                                        
+Nodes: 1666                                                                                         
+Answers: 46                                                                                         
+
+2: [p2(X6)]
+min depth: 1                                                                                        
+Nodes: 2794                                                                                         
+Answers: 46                                                                                         
+
+3: [p8(X2)]
+Nodes: 100105                                                                                       
+Answers: 15                                                                                         
+
+4: [p9(a95, a21, X0), p0(X0, a4, a11)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+5: [p0(a69, X0, X2), p4(X0), p1(X0, a44, X1, a15, a79), p1(X1, a23, a12, a14, a58), p9(X2, a21, a0)]
+min depth: 1                                                                                        
+Nodes: 18                                                                                           
+Answers: 2                                                                                          
+
+6: [p5(X7)]
+min depth: 1                                                                                        
+Nodes: 25116                                                                                        
+Answers: 42                                                                                         
+
+7: [p8(X0)]
+min depth: 1                                                                                        
+Nodes: 40507                                                                                        
+Answers: 721                                                                                        
+
+8: [p2(X7)]
+min depth: 1                                                                                        
+Nodes: 10955                                                                                        
+Answers: 51                                                                                         
+
+9: [p5(a47)]
+min depth: 2                                                                                        
+Nodes: 508                                                                                          
+Answers: 1                                                                                          
+
+10: [p4(X1)]
+Nodes: 100110                                                                                       
+Answers: 13                                                                                         
+
+11: [p8(X8)]
+min depth: 1                                                                                        
+Nodes: 41497                                                                                        
+Answers: 539                                                                                        
+
+12: [p4(X7)]
+Nodes: 100113                                                                                       
+Answers: 13                                                                                         
+
+13: [p8(X1)]
+min depth: 1                                                                                        
+Nodes: 40405                                                                                        
+Answers: 195                                                                                        
+
+14: [p5(X8)]
+min depth: 1                                                                                        
+Nodes: 3950                                                                                         
+Answers: 34                                                                                         
+
+15: [p6(X0, a30), p0(a85, X0, a6)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+16: [p6(X0, a12)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+17: [p6(X0, a46)]
+min depth: 4                                                                                        
+Nodes: 13559                                                                                        
+Answers: 146                                                                                        
+
+18: [p2(X2)]
+min depth: 1                                                                                        
+Nodes: 20527                                                                                        
+Answers: 186                                                                                        
+
+19: [p9(X2, X0, X1), p8(X0), p0(X1, a28, X3), p6(X2, a1), p5(X3)]
+min depth: 1                                                                                        
+Nodes: 18948                                                                                        
+Answers: 23                                                                                         
+
+20: [p8(a37)]
+Restart...                                                                                          
+min depth: 9                                                                                        
+min depth: 8                                                                                        
+min depth: 5                                                                                        
+Nodes: 91816                                                                                        
+Answers: 96                                                                                         
+
+21: [p1(X0, X0, X7, X5, X0)]
+min depth: 6                                                                                        
+Nodes: 1372                                                                                         
+Answers: 3                                                                                          
+
+22: [p8(X7)]
+min depth: 1                                                                                        
+Nodes: 15060                                                                                        
+Answers: 79                                                                                         
+
+23: [p1(a51, X0, a68, X1, a42), p0(X1, X2, a34)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+24: [p5(a37)]
+Restart...                                                                                          
+min depth: 2                                                                                        
+Nodes: 6                                                                                            
+Answers: 1                                                                                          
+
+25: [p1(a0, a6, X0, X1, a83), p0(a58, X0, a20), p1(a11, a44, a3, a15, X1)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+26: [p8(X4)]
+min depth: 1                                                                                        
+Nodes: 14903                                                                                        
+Answers: 23                                                                                         
+
+27: [p8(a11)]
+Restart...                                                                                          
+Restart...                                                                                          
+Answers: 0                                                                                          
+
+28: [p8(X9)]
+min depth: 1                                                                                        
+Nodes: 67828                                                                                        
+Answers: 726                                                                                        
+
+29: [p1(a0, X1, X4, a19, a0)]
+Restart...                                                                                          
+min depth: 4                                                                                        
+Nodes: 3224                                                                                         
+Answers: 71                                                                                         
+
+30: [p6(a28, X0), p2(X0)]
+min depth: 1                                                                                        
+Nodes: 3                                                                                            
+Answers: 1                                                                                          
+
+31: [p0(a69, a99, X0), p9(X0, X1, a59), p2(X1), p2(X0)]
+min depth: 1                                                                                        
+Mismatched predicates: p9(X0, X1, a59) with p1(a99, X20, X30, X20, a99)
+Nodes: 3                                                                                            
+Answers: 1                                                                                          
+
+32: [p1(X7, a27, a10, X5, X7)]
+Restart...                                                                                          
+min depth: 6                                                                                        
+min depth: 5                                                                                        
+Nodes: 20153                                                                                        
+Answers: 119                                                                                        
+
+33: [p1(X9, a27, a10, X9, X9)]
+min depth: 6                                                                                        
+Nodes: 2508                                                                                         
+Answers: 50                                                                                         
+
+34: [p2(X2)]
+min depth: 1                                                                                        
+Nodes: 37698                                                                                        
+Answers: 275                                                                                        
+
+35: [p5(X0), p0(a1, X0, a0), p1(a41, a36, a16, X0, a10)]
+min depth: 1                                                                                        
+Nodes: 12658                                                                                        
+Answers: 33                                                                                         
+
+36: [p1(a31, X1, X0, X3, a11), p1(a10, a8, X2, a31, X0), p7(X1), p9(a0, a15, X2), p9(a63, a13, X3)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+37: [p1(a86, a92, X0, a15, a82), p9(X0, X1, a87), p1(a41, a36, X1, a2, a10)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+38: [p8(X0), p1(a23, a27, X0, a29, a20), p5(X0)]
+min depth: 1                                                                                        
+Nodes: 33703                                                                                        
+Answers: 117                                                                                        
+
+39: [p1(X0, X4, X2, X5, X0)]
+Restart...                                                                                          
+Restart...                                                                                          
+Answers: 0                                                                                          
+
+40: [p8(X0), p0(a69, X1, X0), p3(X2, X0), p5(X1), p6(a27, X2)]
+min depth: 1                                                                                        
+Nodes: 25885                                                                                        
+Answers: 331                                                                                        
+
+41: [p9(X2, X1, X0), p6(X0, a11), p2(X1), p1(a92, a0, a59, a0, X1)]
+Nodes: 100091                                                                                       
+Answers: 22                                                                                         
+
+42: [p0(a86, X0, X1), p4(X0), p1(a11, a44, a3, X1, a79), p3(X0, a11)]
+min depth: 1                                                                                        
+Nodes: 4                                                                                            
+Answers: 1                                                                                          
+
+43: [p8(a3)]
+min depth: 2                                                                                        
+Nodes: 696                                                                                          
+Answers: 13                                                                                         
+
+44: [p6(X6, X7)]
+min depth: 1                                                                                        
+Nodes: 12853                                                                                        
+Answers: 56                                                                                         
+
+45: [p8(X0)]
+min depth: 1                                                                                        
+Nodes: 45443                                                                                        
+Answers: 498                                                                                        
+
+46: [p4(X1)]
+min depth: 1                                                                                        
+Nodes: 100052                                                                                       
+Answers: 241                                                                                        
+
+47: [p8(X3)]
+Nodes: 100129                                                                                       
+Answers: 15                                                                                         
+
+48: [p8(X4)]
+min depth: 1                                                                                        
+Nodes: 24698                                                                                        
+Answers: 208                                                                                        
+
+49: [p1(a2, a82, a20, X0, a9), p9(X0, a1, X1), p0(a70, a60, X0)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+50: [p5(X6)]
+min depth: 1                                                                                        
+Nodes: 1269                                                                                         
+Answers: 34                                                                                         
+
+51: [p1(a2, X1, a20, a0, X0), p0(X0, a41, a0), p1(a86, a92, a39, a15, X1)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+52: [p0(X1, X2, X0), p0(X0, a4, a87), p1(X0, a27, a10, X1, X0), p8(X2)]
+min depth: 1                                                                                        
+Nodes: 4267                                                                                         
+Answers: 21                                                                                         
+
+53: [p1(X0, a27, X9, a19, X0)]
+min depth: 4                                                                                        
+Nodes: 26643                                                                                        
+Answers: 67                                                                                         
+
+54: [p4(X9)]
+min depth: 1                                                                                        
+Nodes: 81455                                                                                        
+Answers: 1000                                                                                       
+
+55: [p2(X8)]
+min depth: 1                                                                                        
+Nodes: 10477                                                                                        
+Answers: 149                                                                                        
+
+56: [p1(X8, a27, a10, X8, X8)]
+min depth: 6                                                                                        
+Nodes: 15006                                                                                        
+Answers: 29                                                                                         
+
+57: [p3(X0, X1), p6(a27, X0), p9(X1, a13, X2), p6(a48, X0), p9(X2, a26, a13)]
+min depth: 1                                                                                        
+Nodes: 5595                                                                                         
+Answers: 81                                                                                         
+
+58: [p8(X3)]
+min depth: 1                                                                                        
+Nodes: 33857                                                                                        
+Answers: 697                                                                                        
+
+59: [p8(X0), p0(X1, X0, a20), p1(a3, a23, a12, a14, X1), p1(a0, a6, X0, a79, a83)]
+Nodes: 100093                                                                                       
+Answers: 15                                                                                         
+
+60: [p8(X0), p3(X0, X1), p9(X2, X1, a87), p2(X2)]
+min depth: 1                                                                                        
+Nodes: 814                                                                                          
+Answers: 53                                                                                         
+
+61: [p8(X5)]
+min depth: 1                                                                                        
+Nodes: 18226                                                                                        
+Answers: 133                                                                                        
+
+62: [p0(X0, a1, X1), p4(X0), p1(a11, X1, X2, a15, a79), p1(X3, a1, X2, a13, a7), p1(X3, a6, a18, a79, a83)]
+ [-----] 0.0% to max nodes (54779 nps)Mismatched predicates: p4(X0) with p1(a1, X20, X30, X20, a1)  
+min depth: 1                                                                                        
+Nodes: 3                                                                                            
+Answers: 1                                                                                          
+
+63: [p4(X3)]
+min depth: 1                                                                                        
+Nodes: 30313                                                                                        
+Answers: 292                                                                                        
+
+64: [p1(a0, a10, a52, X2, X0), p1(a23, a27, a38, X0, X1), p1(X3, a82, X1, a0, a9), p1(a51, a40, X2, a24, a42), p9(X3, a17, a97)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+65: [p1(X6, a27, a10, X5, X6)]
+min depth: 9                                                                                        
+min depth: 8                                                                                        
+Nodes: 100067                                                                                       
+Answers: 21                                                                                         
+
+66: [p8(X1)]
+Nodes: 100085                                                                                       
+Answers: 15                                                                                         
+
+67: [p5(X8)]
+min depth: 1                                                                                        
+Nodes: 12156                                                                                        
+Answers: 44                                                                                         
+
+68: [p6(X1, X0), p3(X0, X2), p4(X2)]
+min depth: 1                                                                                        
+Nodes: 24518                                                                                        
+Answers: 140                                                                                        
+
+69: [p4(a3)]
+Restart...                                                                                          
+Restart...                                                                                          
+min depth: 3                                                                                        
+Nodes: 1274                                                                                         
+Answers: 1                                                                                          
+
+70: [p1(a2, X0, a20, a0, a9), p1(a86, a92, a39, a15, X0)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+71: [p4(X1)]
+min depth: 1                                                                                        
+Nodes: 21037                                                                                        
+Answers: 1000                                                                                       
+
+72: [p1(X1, a27, X2, X0, X1), p1(a27, a27, X2, X0, a27), p1(a13, a31, a32, X1, a22), p1(a1, a27, X2, X0, a1), p0(X2, a0, a34)]
+min depth: 5                                                                                        
+Nodes: 35290                                                                                        
+Answers: 120                                                                                        
+
+73: [p8(X6)]
+min depth: 1                                                                                        
+Nodes: 15047                                                                                        
+Answers: 147                                                                                        
+
+74: [p0(X0, a72, X3), p1(a47, X1, a10, X0, a47), p1(X2, X1, a10, X0, X2), p8(X2), p0(a33, X3, a44)]
+min depth: 1                                                                                        
+Nodes: 3                                                                                            
+Answers: 1                                                                                          
+
+75: [p8(X9)]
+min depth: 1                                                                                        
+Nodes: 18635                                                                                        
+Answers: 134                                                                                        
+
+76: [p8(X2)]
+min depth: 1                                                                                        
+Nodes: 21822                                                                                        
+Answers: 70                                                                                         
+
+77: [p0(a69, X0, a95), p8(X0)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+78: [p7(X0), p8(X0), p1(X0, a27, a10, X1, X0), p5(X0), p8(X1)]
+min depth: 1                                                                                        
+Nodes: 50                                                                                           
+Answers: 12                                                                                         
+
+79: [p5(a3)]
+min depth: 2                                                                                        
+Nodes: 16                                                                                           
+Answers: 1                                                                                          
+
+80: [p5(X5)]
+min depth: 1                                                                                        
+Nodes: 10814                                                                                        
+Answers: 34                                                                                         
+
+81: [p6(a48, X5)]
+min depth: 1                                                                                        
+Nodes: 7442                                                                                         
+Answers: 76                                                                                         
+
+82: [p2(a8)]
+Restart...                                                                                          
+min depth: 7                                                                                        
+min depth: 5                                                                                        
+Nodes: 25815                                                                                        
+Answers: 43                                                                                         
+
+83: [p8(X5)]
+min depth: 1                                                                                        
+Nodes: 11270                                                                                        
+Answers: 48                                                                                         
+
+84: [p1(a8, a27, a10, X0, a8)]
+min depth: 6                                                                                        
+Nodes: 23314                                                                                        
+Answers: 11                                                                                         
+
+85: [p1(X0, a23, X1, a14, a58), p7(X0), p6(X1, a11)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+86: [p1(X0, a27, X9, a19, X0)]
+Nodes: 100043                                                                                       
+Answers: 64                                                                                         
+
+87: [p2(X4)]
+min depth: 1                                                                                        
+Nodes: 5670                                                                                         
+Answers: 41                                                                                         
+
+88: [p5(X0), p9(X2, X0, X1), p4(X1), p1(a92, X1, a59, X1, a14)]
+min depth: 1                                                                                        
+Nodes: 8250                                                                                         
+Answers: 32                                                                                         
+
+89: [p8(a92)]
+min depth: 2                                                                                        
+Nodes: 1534                                                                                         
+Answers: 2                                                                                          
+
+90: [p5(X1)]
+min depth: 1                                                                                        
+Nodes: 2165                                                                                         
+Answers: 44                                                                                         
+
+91: [p6(X1, X0), p9(a61, X0, a12), p0(a29, X0, a81), p1(X1, a42, a1, a18, a83), p3(X0, a38)]
+min depth: 1                                                                                        
+Nodes: 198                                                                                          
+Answers: 53                                                                                         
+
+92: [p2(X9)]
+min depth: 1                                                                                        
+Nodes: 71                                                                                           
+Answers: 35                                                                                         
+
+93: [p2(X4)]
+min depth: 1                                                                                        
+Nodes: 38625                                                                                        
+Answers: 411                                                                                        
+
+94: [p5(X0)]
+min depth: 1                                                                                        
+Nodes: 7445                                                                                         
+Answers: 43                                                                                         
+
+95: [p2(X5)]
+min depth: 1                                                                                        
+Nodes: 36123                                                                                        
+Answers: 351                                                                                        
+
+96: [p0(a33, a1, X0), p1(a11, X0, a3, a15, a79)]
+min depth: 1                                                                                        
+Nodes: 6                                                                                            
+Answers: 1                                                                                          
+
+97: [p8(X5)]
+min depth: 1                                                                                        
+Nodes: 38168                                                                                        
+Answers: 629                                                                                        
+
+98: [p2(X0)]
+min depth: 1                                                                                        
+Nodes: 1351                                                                                         
+Answers: 46                                                                                         
+
+99: [p8(X2)]
+min depth: 1                                                                                        
+Nodes: 25048                                                                                        
+Answers: 309                                                                                        
+
+100: [p8(X5)]
+min depth: 1                                                                                        
+Nodes: 26881                                                                                        
+Answers: 337                                                                                        
+
+Before removing duplicates: 1585226 examples
+After removing duplicates: 33199 examples
+Replicating pos examples 16 times
+pos len=31375, neg len=31375

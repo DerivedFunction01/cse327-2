@@ -1,0 +1,487 @@
+Negative facts will be generated
+1: [threeBorderTrip(Region, Y)]
+min depth: 8                                                                                        
+Nodes: 1705                                                                                         
+Answers: 1000                                                                                       
+
+2: [capitalCity(City)]
+min depth: 2                                                                                        
+Nodes: 197                                                                                          
+Answers: 195                                                                                        
+
+3: [sharesLanguage(City, Y)]
+min depth: 3                                                                                        
+Nodes: 1048                                                                                         
+Answers: 1000                                                                                       
+
+4: [sharesLanguage(Y, L)]
+min depth: 3                                                                                        
+Nodes: 1052                                                                                         
+Answers: 1000                                                                                       
+
+5: [threeBorderTrip(O, V)]
+min depth: 8                                                                                        
+Nodes: 1869                                                                                         
+Answers: 1000                                                                                       
+
+6: [cityIn(C, City), capitalCity(C), sameRegion(City, uzbekistan)]
+min depth: 1                                                                                        
+Nodes: 314                                                                                          
+Answers: 313                                                                                        
+
+7: [twoStepBorderNeighborAlliance(C, Continent), sameRegion(City, C), sameRegion(City, myanmar), borderNeighborAlliance(C, Continent), borderNeighborAlliance(poland, Continent)]
+min depth: 7                                                                                        
+Nodes: 3208                                                                                         
+Answers: 1000                                                                                       
+
+8: [fourBorderTrip(C, sudan), sameRegion(C, mozambique)]
+Nodes: 42109                                                                                        
+Answers: 1000                                                                                       
+
+9: [threeBorderTrip(City, C), twoBorderTrip(C, bolivia), fourBorderTrip(City, chile), sameRegion(suriname, City), twoBorderTrip(paraguay, C)]
+min depth: 8                                                                                        
+Nodes: 26361                                                                                        
+Answers: 1000                                                                                       
+
+10: [fourBorderTrip(O, Y)]
+Nodes: 1513                                                                                         
+Answers: 1000                                                                                       
+
+11: [sharesLanguage(C, C)]
+min depth: 3                                                                                        
+Nodes: 532                                                                                          
+Answers: 265                                                                                        
+
+12: [fourBorderTrip(Z, Country)]
+Nodes: 53633                                                                                        
+Answers: 1000                                                                                       
+
+13: [capitalInContinent(V, Org)]
+min depth: 3                                                                                        
+Nodes: 392                                                                                          
+Answers: 195                                                                                        
+
+14: [threeBorderTrip(C, City), sameRegion(senegal, C), twoBorderTrip(City, mali)]
+min depth: 8                                                                                        
+Nodes: 1724                                                                                         
+Answers: 1000                                                                                       
+
+15: [borderNeighborAlliance(Country, Continent)]
+min depth: 4                                                                                        
+Nodes: 750                                                                                          
+Answers: 433                                                                                        
+
+16: [threeBorderTrip(Region, Country)]
+min depth: 8                                                                                        
+Nodes: 22899                                                                                        
+Answers: 1000                                                                                       
+
+17: [sameRegion(O, Y)]
+min depth: 3                                                                                        
+Nodes: 1032                                                                                         
+Answers: 1000                                                                                       
+
+18: [threeBorderTrip(C, niger), threeBorderTrip(C, City), sameRegion(City, Continent), sameRegion(City, cape_verde), sameRegion(togo, Continent)]
+min depth: 8                                                                                        
+Nodes: 5499                                                                                         
+Answers: 117                                                                                        
+
+19: [fourBorderTrip(L, Continent)]
+Nodes: 77487                                                                                        
+Answers: 1000                                                                                       
+
+20: [fourBorderTrip(R, W)]
+Nodes: 5204                                                                                         
+Answers: 1000                                                                                       
+
+21: [fourBorderTrip(V, Y)]
+Nodes: 62168                                                                                        
+Answers: 1000                                                                                       
+
+22: [countryInAfrica(V)]
+min depth: 2                                                                                        
+Nodes: 55                                                                                           
+Answers: 53                                                                                         
+
+23: [capitalInContinent(bangui, C), cityInContinent(City, C), capitalCity(City), capitalInContinent(City, C), capitalInContinent(windhoek, C)]
+min depth: 3                                                                                        
+Nodes: 198                                                                                          
+Answers: 1                                                                                          
+
+24: [sharesLanguage(C, jamaica), sharesLanguage(C, zimbabwe)]
+min depth: 3                                                                                        
+Nodes: 322                                                                                          
+Answers: 55                                                                                         
+
+25: [sharesLanguage(R, W)]
+min depth: 3                                                                                        
+Nodes: 1069                                                                                         
+Answers: 1000                                                                                       
+
+26: [currencyOf(C, sri_lankan_rupee), cityIn(sri_jayawardenepura_kotte, C), sameRegion(C, City), sameRegion(tajikistan, C), threeBorderTrip(City, finland)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+27: [sharesLanguage(R, Z)]
+min depth: 3                                                                                        
+Nodes: 1045                                                                                         
+Answers: 1000                                                                                       
+
+28: [countryInAllianceAndRegion(W, Neighbor, Org)]
+min depth: 3                                                                                        
+Nodes: 302                                                                                          
+Answers: 105                                                                                        
+
+29: [officialLanguage(bolivia, C)]
+min depth: 1                                                                                        
+Nodes: 3                                                                                            
+Answers: 2                                                                                          
+
+30: [sharesLanguage(City, C), sharesLanguage(C, philippines), fourBorderTrip(rwanda, City)]
+min depth: 3                                                                                        
+Nodes: 1051                                                                                         
+Answers: 1000                                                                                       
+
+31: [sameRegion(Z, X)]
+min depth: 3                                                                                        
+Nodes: 1033                                                                                         
+Answers: 1000                                                                                       
+
+32: [sameAlliance(City, Country)]
+min depth: 3                                                                                        
+Nodes: 1058                                                                                         
+Answers: 1000                                                                                       
+
+33: [fourBorderTrip(Country, R)]
+ [-----] 0.0% to max nodes (72437 nps)                                                              
+Nodes: 49306                                                                                        
+Answers: 1000                                                                                       
+
+34: [fourBorderTrip(Continent, Z)]
+Nodes: 54079                                                                                        
+Answers: 1000                                                                                       
+
+35: [sharesLanguage(C, switzerland), threeBorderTrip(C, mali)]
+min depth: 3                                                                                        
+Nodes: 308                                                                                          
+Answers: 41                                                                                         
+
+36: [cityInAllianceAndRegion(Org, R, L)]
+min depth: 4                                                                                        
+Nodes: 465                                                                                          
+Answers: 179                                                                                        
+
+37: [cityInContinent(C, europe), capitalOf(cyprus, C), cityIn(C, cyprus)]
+min depth: 3                                                                                        
+Nodes: 399                                                                                          
+Answers: 84                                                                                         
+
+38: [threeBorderTrip(City, C), twoStepBorderNeighborAlliance(C, brics), sameAlliance(united_states, City)]
+min depth: 8                                                                                        
+Nodes: 1696                                                                                         
+Answers: 1000                                                                                       
+
+39: [sharesBorder(C, W)]
+min depth: 2                                                                                        
+Nodes: 595                                                                                          
+Answers: 592                                                                                        
+
+40: [cityInContinent(porto_novo, C), cityInRegion(City, C), capitalCity(City), capitalOf(burundi, City)]
+min depth: 3                                                                                        
+Nodes: 198                                                                                          
+Answers: 1                                                                                          
+
+41: [sameRegion(X, Neighbor)]
+min depth: 3                                                                                        
+Nodes: 1030                                                                                         
+Answers: 1000                                                                                       
+
+42: [sameRegion(W, Country)]
+min depth: 3                                                                                        
+Nodes: 1029                                                                                         
+Answers: 1000                                                                                       
+
+43: [twoStepBorderNeighborAlliance(C, Continent), fourBorderTrip(City, C), twoBorderTrip(City, City), cityInAlliance(prague, Continent)]
+min depth: 7                                                                                        
+Nodes: 35410                                                                                        
+Answers: 1000                                                                                       
+
+44: [cityInContinent(Region, X)]
+min depth: 3                                                                                        
+Nodes: 510                                                                                          
+Answers: 313                                                                                        
+
+45: [fourBorderTrip(O, V)]
+Nodes: 64183                                                                                        
+Answers: 1000                                                                                       
+
+46: [officialLanguage(C, nauruan), sharesLanguage(C, City), sameRegion(uganda, City)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+47: [twoStepBorderNeighborAlliance(turkey, C), twoStepBorderNeighborAlliance(City, C), fourBorderTrip(City, cambodia)]
+min depth: 7                                                                                        
+Nodes: 2335                                                                                         
+Answers: 17                                                                                         
+
+48: [sameRegion(O, L)]
+min depth: 3                                                                                        
+Nodes: 1026                                                                                         
+Answers: 1000                                                                                       
+
+49: [usesSameCurrency(R, City)]
+min depth: 3                                                                                        
+Nodes: 1167                                                                                         
+Answers: 1000                                                                                       
+
+50: [threeBorderTrip(City, Org)]
+min depth: 8                                                                                        
+Nodes: 17526                                                                                        
+Answers: 1000                                                                                       
+
+51: [usesSameCurrency(X, L)]
+min depth: 3                                                                                        
+Nodes: 1191                                                                                         
+Answers: 1000                                                                                       
+
+52: [fourBorderTrip(V, L)]
+Nodes: 4915                                                                                         
+Answers: 1000                                                                                       
+
+53: [sharesLanguage(Region, V)]
+min depth: 3                                                                                        
+Nodes: 1050                                                                                         
+Answers: 1000                                                                                       
+
+54: [sharesLanguage(Y, Org)]
+min depth: 3                                                                                        
+Nodes: 1055                                                                                         
+Answers: 1000                                                                                       
+
+55: [currencyOf(japan, C)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+56: [threeBorderTrip(Region, Neighbor)]
+min depth: 8                                                                                        
+Nodes: 1721                                                                                         
+Answers: 1000                                                                                       
+
+57: [twoStepBorderNeighborAlliance(Org, City)]
+min depth: 7                                                                                        
+Nodes: 3259                                                                                         
+Answers: 1000                                                                                       
+
+58: [usesSameCurrency(C, cote_divoire), sharesLanguage(france, C), sameRegion(C, sao_tome_and_principe)]
+min depth: 3                                                                                        
+Nodes: 32                                                                                           
+Answers: 28                                                                                         
+
+59: [sharesLanguage(O, L)]
+min depth: 3                                                                                        
+Nodes: 1058                                                                                         
+Answers: 1000                                                                                       
+
+60: [sameRegion(W, O)]
+min depth: 3                                                                                        
+Nodes: 1029                                                                                         
+Answers: 1000                                                                                       
+
+61: [usesSameCurrency(belgium, C), sameAlliance(poland, C), sameAlliance(romania, C)]
+min depth: 3                                                                                        
+Nodes: 29                                                                                           
+Answers: 26                                                                                         
+
+62: [sharesLanguage(Country, W)]
+min depth: 3                                                                                        
+Nodes: 1051                                                                                         
+Answers: 1000                                                                                       
+
+63: [currencyOf(C, indian_rupee), sharesLanguage(City, C), sameRegion(tunisia, City), sameRegion(nigeria, City)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+64: [sameRegion(Region, Continent)]
+min depth: 3                                                                                        
+Nodes: 1030                                                                                         
+Answers: 1000                                                                                       
+
+65: [officialLanguage(C, City), sameRegion(C, romania), officialLanguage(turkey, City)]
+min depth: 1                                                                                        
+Nodes: 266                                                                                          
+Answers: 265                                                                                        
+
+66: [sameRegion(nepal, C), sameRegion(kazakhstan, C)]
+min depth: 3                                                                                        
+Nodes: 233                                                                                          
+Answers: 36                                                                                         
+
+67: [sharesLanguage(Region, Org)]
+min depth: 3                                                                                        
+Nodes: 1040                                                                                         
+Answers: 1000                                                                                       
+
+68: [sameRegion(C, City), sameRegion(C, turkmenistan), sameRegion(brunei, C), threeBorderTrip(City, vietnam)]
+min depth: 3                                                                                        
+Nodes: 1034                                                                                         
+Answers: 1000                                                                                       
+
+69: [threeBorderTrip(O, V)]
+min depth: 8                                                                                        
+Nodes: 25138                                                                                        
+Answers: 1000                                                                                       
+
+70: [currencyOf(colombia, C)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+71: [threeBorderTrip(Neighbor, City)]
+min depth: 8                                                                                        
+Nodes: 1790                                                                                         
+Answers: 1000                                                                                       
+
+72: [sameRegion(Neighbor, C)]
+min depth: 3                                                                                        
+Nodes: 1029                                                                                         
+Answers: 1000                                                                                       
+
+73: [sameRegion(finland, C), sameRegion(City, C), sameRegion(switzerland, City), threeBorderTrip(denmark, C)]
+min depth: 3                                                                                        
+Nodes: 252                                                                                          
+Answers: 55                                                                                         
+
+74: [officialLanguage(City, C), threeBorderTrip(bhutan, City)]
+min depth: 1                                                                                        
+Nodes: 266                                                                                          
+Answers: 265                                                                                        
+
+75: [sameAlliance(C, Continent)]
+min depth: 3                                                                                        
+Nodes: 1046                                                                                         
+Answers: 1000                                                                                       
+
+76: [officialLanguage(C, dhivehi), sameRegion(bangladesh, C), sameRegion(C, City), sameAlliance(uzbekistan, City)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+77: [sameRegion(Region, W)]
+min depth: 3                                                                                        
+Nodes: 1030                                                                                         
+Answers: 1000                                                                                       
+
+78: [sharesLanguage(Continent, Z)]
+min depth: 3                                                                                        
+Nodes: 1041                                                                                         
+Answers: 1000                                                                                       
+
+79: [sharesBorder(jordan, C), sameRegion(C, iran)]
+min depth: 2                                                                                        
+Nodes: 7                                                                                            
+Answers: 4                                                                                          
+
+80: [fourBorderTrip(Y, City)]
+Nodes: 3458                                                                                         
+Answers: 1000                                                                                       
+
+81: [sameRegion(W, Z)]
+min depth: 3                                                                                        
+Nodes: 1030                                                                                         
+Answers: 1000                                                                                       
+
+82: [officialLanguage(C, montenegrin), fourBorderTrip(C, City), sameAlliance(City, egypt)]
+min depth: 1                                                                                        
+Nodes: 2                                                                                            
+Answers: 1                                                                                          
+
+83: [fourBorderTrip(City, C), sharesLanguage(C, C), fourBorderTrip(City, peru), fourBorderTrip(colombia, C)]
+Nodes: 51407                                                                                        
+Answers: 1000                                                                                       
+
+84: [fourBorderTrip(Org, R)]
+Nodes: 1625                                                                                         
+Answers: 1000                                                                                       
+
+85: [sharesLanguage(X, Y)]
+min depth: 3                                                                                        
+Nodes: 1047                                                                                         
+Answers: 1000                                                                                       
+
+86: [cityInAlliance(C, cis), cityInContinent(C, europe)]
+min depth: 3                                                                                        
+Nodes: 330                                                                                          
+Answers: 15                                                                                         
+
+87: [sameRegion(R, O)]
+min depth: 3                                                                                        
+Nodes: 1031                                                                                         
+Answers: 1000                                                                                       
+
+88: [fourBorderTrip(Continent, Neighbor)]
+Nodes: 46531                                                                                        
+Answers: 1000                                                                                       
+
+89: [sameAlliance(germany, C), sameRegion(congo, C)]
+min depth: 3                                                                                        
+Nodes: 178                                                                                          
+Answers: 71                                                                                         
+
+90: [capitalCity(City)]
+min depth: 2                                                                                        
+Nodes: 197                                                                                          
+Answers: 195                                                                                        
+
+91: [usesSameCurrency(Neighbor, C)]
+min depth: 3                                                                                        
+Nodes: 1189                                                                                         
+Answers: 1000                                                                                       
+
+92: [fourBorderTrip(L, W)]
+Nodes: 27758                                                                                        
+Answers: 1000                                                                                       
+
+93: [cityInRegion(C, middle_east), cityInContinent(C, middle_east)]
+min depth: 3                                                                                        
+Nodes: 341                                                                                          
+Answers: 26                                                                                         
+
+94: [fourBorderTrip(L, Country)]
+Nodes: 6849                                                                                         
+Answers: 1000                                                                                       
+
+95: [sharesLanguage(W, R)]
+min depth: 3                                                                                        
+Nodes: 1060                                                                                         
+Answers: 1000                                                                                       
+
+96: [officialLanguage(City, C), sameAlliance(canada, City)]
+min depth: 1                                                                                        
+Nodes: 266                                                                                          
+Answers: 265                                                                                        
+
+97: [fourBorderTrip(C, City), sameRegion(ethiopia, C), fourBorderTrip(mauritania, City), threeBorderTrip(City, niger)]
+Nodes: 3317                                                                                         
+Answers: 1000                                                                                       
+
+98: [capitalInAlliance(muscat, C), twoStepBorderNeighborAlliance(kuwait, C)]
+min depth: 3                                                                                        
+Nodes: 108                                                                                          
+Answers: 1                                                                                          
+
+99: [twoBorderTrip(C, C)]
+min depth: 5                                                                                        
+Nodes: 2372                                                                                         
+Answers: 592                                                                                        
+
+100: [fourBorderTrip(Y, O)]
+Nodes: 1805                                                                                         
+Answers: 1000                                                                                       
+
+Before removing duplicates: 755080 examples
+After removing duplicates: 52213 examples
+pos len=28709, neg len=28709

@@ -1,0 +1,25 @@
+Reasoner comparison
+  baseline std file: size400/default/std-10-99-5-50.csv
+  ming file: size400/default/ming-10-99-5-50.csv
+  plot:      size400/default/reasoner_comparison-vs-default-10-99-5-50.png
+  txt file:   size400/default/reasoner_comparison-vs-default-10-99-5-50.txt
+
+Queries compared: 100
+std mean nodes:   40008.09
+std median nodes: 3.00
+std total time:   330.71
+ming mean nodes:  11084.44
+ming median nodes: 3.00
+ming total time:  228.63
+
+std wins:         2
+ming wins:        20
+ties:             78
+
+both success:     95
+std only success: 1
+ming only success: 4
+both fail:        0
+
+mean(std - ming) nodes: 28923.65
+total(std - ming) time:  102.09

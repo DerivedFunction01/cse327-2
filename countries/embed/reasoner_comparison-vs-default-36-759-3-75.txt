@@ -1,0 +1,25 @@
+Reasoner comparison
+  baseline std file: countries/default/std-36-759-3-50.csv
+  ming file: countries/embed/ming-36-759-3-75.csv
+  plot:      countries/embed/reasoner_comparison-vs-default-36-759-3-75.png
+  txt file:   countries/embed/reasoner_comparison-vs-default-36-759-3-75.txt
+
+Queries compared: 100
+std mean nodes:   68487.28
+std median nodes: 10.00
+std total time:   169.69
+ming mean nodes:  130081.53
+ming median nodes: 17.00
+ming total time:  5822.12
+
+std wins:         43
+ming wins:        14
+ties:             43
+
+both success:     84
+std only success: 0
+ming only success: 0
+both fail:        16
+
+mean(std - ming) nodes: -61594.25
+total(std - ming) time:  -5652.44
