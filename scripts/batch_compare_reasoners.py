@@ -57,6 +57,14 @@ class ComparisonPair:
     def variant(self) -> str:
         return self.ming_path.parent.name
 
+    @property
+    def embed_size(self) -> str:
+        stem = self.ming_path.stem
+        parts = stem.split("-")
+        if len(parts) >= 2:
+            return parts[-1]
+        return "unknown"
+
 
 @dataclass(frozen=True)
 class ComparisonTarget:
@@ -106,6 +114,10 @@ def _find_variant_ming(variant_dir: Path) -> Path | None:
     return None
 
 
+def _find_variant_mings(variant_dir: Path) -> list[Path]:
+    return sorted(variant_dir.glob("ming-*.csv"))
+
+
 def _iter_kb_roots(root: Path) -> list[Path]:
     kb_roots: list[Path] = []
     for path in sorted(root.iterdir()):
@@ -127,15 +139,26 @@ def find_targets(root: Path) -> list[ComparisonTarget]:
             variant_dir = kb_root / variant
             if not variant_dir.is_dir():
                 continue
-            ming_path = _find_variant_ming(variant_dir)
-            targets.append(
-                ComparisonTarget(
-                    kb_root=kb_root,
-                    variant_dir=variant_dir,
-                    baseline_std_path=baseline_std,
-                    ming_path=ming_path,
+            ming_paths = _find_variant_mings(variant_dir)
+            if ming_paths:
+                for ming_path in ming_paths:
+                    targets.append(
+                        ComparisonTarget(
+                            kb_root=kb_root,
+                            variant_dir=variant_dir,
+                            baseline_std_path=baseline_std,
+                            ming_path=ming_path,
+                        )
+                    )
+            else:
+                targets.append(
+                    ComparisonTarget(
+                        kb_root=kb_root,
+                        variant_dir=variant_dir,
+                        baseline_std_path=baseline_std,
+                        ming_path=None,
+                    )
                 )
-            )
     return targets
 
 
@@ -287,6 +310,7 @@ def main() -> int:
         row: dict[str, object] = {
             "kb": pair.kb_name,
             "variant": pair.variant,
+            "embed_size": pair.embed_size if pair.variant == "embed" else "",
             "baseline_std_file": str(pair.baseline_std_path.relative_to(root)),
             "ming_file": str(pair.ming_path.relative_to(root)),
             "plot_file": str(pair.plot_path.relative_to(root)),
@@ -314,6 +338,7 @@ def main() -> int:
         print(
             f"{pair.kb_name}/{pair.variant}: "
             f"size={pair.size_tag}, "
+            f"embed={pair.embed_size if pair.variant == 'embed' else '-'}, "
             f"std mean={summary['std_mean_nodes']:.2f}, "
             f"ming mean={summary['ming_mean_nodes']:.2f}, "
             f"std time={summary['std_total_time']:.2f}, "
